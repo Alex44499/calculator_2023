@@ -1,0 +1,102 @@
+/* Global styles */
+* {
+  box-sizing: border-box; /* Ensures padding and border are included in the total width and height */
+  margin: 0; /* Removes default margin */
+  padding: 0; /* Removes default padding */
+}
+
+/* Styling for the body element */
+body {
+  font-family: Arial, Helvetica, sans-serif; /* Sets the font family for the body */
+  background: rgb(238, 174, 202); /* Fallback background color */
+  background: radial-gradient(
+    /* Radial gradient background */ circle,
+    rgba(238, 174, 202, 1) 16%,
+    rgba(148, 187, 233, 1) 84%
+  );
+  height: 100vh; /* Sets the height to 100% of the viewport height */
+  display: flex; /* Uses flexbox for layout */
+  align-items: center; /* Centers items vertically */
+  justify-content: space-evenly; /* Distributes items evenly */
+  flex-direction: column; /* Sets the flex direction to column */
+}
+
+/* Styling for the main container */
+.main-container {
+  background-color: white; /* Sets the background color */
+  padding: 10px; /* Adds padding */
+  border-radius: 10px; /* Rounds the corners */
+  width: fit-content; /* Fits the width to the content */
+}
+
+/* Styling for the display section */
+.display {
+  background-color: #879ac7; /* Sets the background color */
+  width: 100%; /* Takes up the full width of its container */
+  padding: 20px; /* Adds padding */
+  margin-bottom: 10px; /* Adds margin to the bottom */
+  border-radius: 5px; /* Rounds the corners */
+  text-align: right; /* Aligns text to the right */
+  color: whitesmoke; /* Sets the text color */
+  font-size: 20px; /* Adjusts the font size */
+  font-weight: 400; /* Sets the font weight */
+}
+
+/* Styling for the grid of buttons */
+.numbers-operations {
+  display: grid; /* Uses grid for layout */
+  grid-template-columns: repeat(4, 1fr); /* Creates 4 equal-width columns */
+  gap: 5px; /* Sets the gap between grid items */
+}
+
+/* Styling for the buttons */
+.btn {
+  background-color: #b0c6e6; /* Sets the background color */
+  color: white; /* Sets the text color */
+  padding: 20px; /* Adds padding */
+  border: none; /* Removes the border */
+  border-radius: 5px; /* Rounds the corners */
+  cursor: pointer; /* Changes the cursor on hover */
+  width: 100%; /* Takes up the full width of its container */
+  font-size: 20px; /* Adjusts the font size */
+  font-weight: 400; /* Sets the font weight */
+}
+
+/* Styling for the button hover state */
+.btn:hover {
+  background-color: #92a5c2; /* Changes the background color on hover */
+}
+
+/* Styling for operation buttons */
+.btn.operation {
+  background-color: #69769f; /* Sets the background color */
+}
+
+/* Styling for the hover state of operation buttons */
+.btn.operation:hover {
+  background-color: #7888be; /* Changes the background color on hover */
+}
+
+/* Styling for the equal button */
+.btn.equal {
+  grid-column: span 2; /* Makes the button span 2 columns */
+}
+
+/* Styling for AC and C buttons */
+.btn.AC,
+.btn.C {
+  background-color: #cc7fa0; /* Sets the background color */
+}
+
+/* Styling for the hover state of AC and C buttons */
+.btn.AC:hover,
+.btn.C:hover {
+  background-color: #fa4e99; /* Changes the background color on hover */
+}
+
+/* Styling for the footer */
+footer {
+  width: 100%; /* Ensures the footer takes the full width */
+  padding: 10px; /* Adds padding */
+  text-align: center; /* Centers the footer content */
+}
