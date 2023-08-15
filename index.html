@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta tags for character set and responsive design -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Link to the external stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Link to the JavaScript file with defer attribute to execute it after the HTML is parsed -->
+    <script src="main.js" defer></script>
+
+    <!-- External script for Font Awesome icons -->
+    <script
+      src="https://kit.fontawesome.com/5a658fc69c.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Title of the webpage -->
+    <title>Calculator</title>
+  </head>
+
+  <body>
+    <!-- Main container for the calculator -->
+    <div class="main-container">
+      <!-- Section for displaying the calculator's output -->
+      <div class="display">
+        <div class="previous-value">1</div>
+        <div class="current-value">0</div>
+      </div>
+
+      <!-- Section containing the calculator buttons -->
+      <div class="numbers-operations section">
+        <button class="btn operation AC">AC</button>
+        <button class="btn operation C">C</button>
+        <button class="btn operation percent">%</button>
+        <button class="btn operation division">/</button>
+        <button class="btn btn-seven">7</button>
+        <button class="btn btn-eight">8</button>
+        <button class="btn btn-nine">9</button>
+        <button class="btn operation plus">+</button>
+        <button class="btn btn-four">4</button>
+        <button class="btn btn-five">5</button>
+        <button class="btn btn-six">6</button>
+        <button class="btn operation minus">-</button>
+        <button class="btn btn-one">1</button>
+        <button class="btn btn-two">2</button>
+        <button class="btn btn-three">3</button>
+        <button class="btn operation multiply">x</button>
+        <button class="btn btn-zero">0</button>
+        <button class="btn operation dot">.</button>
+        <button class="btn operation equal">=</button>
+      </div>
+    </div>
+
+    <!-- Footer section containing copyright information and a link to GitHub -->
+    <footer class="footer">
+      <p class="footer-text">
+        Copyright ©
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+        Alex44499
+      </p>
+      <a class="link" href="https://github.com/Alex44499" target="_blank">
+        <i class="fa fa-github"></i>
+      </a>
+    </footer>
+  </body>
+</html>
