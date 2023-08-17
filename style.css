@@ -33,13 +33,13 @@ body {
 .display {
   background-color: #879ac7; /* Sets the background color */
   width: 100%; /* Takes up the full width of its container */
-  padding: 20px; /* Adds padding */
+  padding: 30px; /* Adds padding */
   margin-bottom: 10px; /* Adds margin to the bottom */
   border-radius: 5px; /* Rounds the corners */
   text-align: right; /* Aligns text to the right */
   color: whitesmoke; /* Sets the text color */
-  font-size: 20px; /* Adjusts the font size */
-  font-weight: 400; /* Sets the font weight */
+  font-size: 30px; /* Adjusts the font size */
+  font-weight: 500; /* Sets the font weight */
 }
 
 /* Styling for the grid of buttons */
@@ -78,19 +78,18 @@ body {
 }
 
 /* Styling for the equal button */
-.btn.equal {
+.btn.equal,
+.btn.AC {
   grid-column: span 2; /* Makes the button span 2 columns */
 }
 
-/* Styling for AC and C buttons */
-.btn.AC,
-.btn.C {
+/* Styling for equal button */
+.btn.equal {
   background-color: #cc7fa0; /* Sets the background color */
 }
 
-/* Styling for the hover state of AC and C buttons */
-.btn.AC:hover,
-.btn.C:hover {
+/* Styling for the hover state of Equal button */
+.btn.equal:hover {
   background-color: #fa4e99; /* Changes the background color on hover */
 }
 
