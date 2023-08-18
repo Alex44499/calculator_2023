@@ -125,6 +125,7 @@ function handlePercentButton() {
 		if (firstInputValue) {
 			result = parseFloat(firstInputValue) / 100
 			displayResult.textContent = result
+			firstInputValue = result.toString();
 		}
 	}
 	)
