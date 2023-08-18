@@ -26,7 +26,7 @@ body {
   background-color: white; /* Sets the background color */
   padding: 10px; /* Adds padding */
   border-radius: 10px; /* Rounds the corners */
-  width: fit-content; /* Fits the width to the content */
+  width:20%; /* Fits the width to the content */
 }
 
 /* Styling for the display section */
@@ -38,8 +38,8 @@ body {
   border-radius: 5px; /* Rounds the corners */
   text-align: right; /* Aligns text to the right */
   color: whitesmoke; /* Sets the text color */
-  font-size: 25px; /* Adjusts the font size */
-  font-weight: 500; /* Sets the font weight */
+  font-size: 20px; /* Adjusts the font size */
+  font-weight: 400; /* Sets the font weight */
 }
 
 /* Styling for the grid of buttons */
