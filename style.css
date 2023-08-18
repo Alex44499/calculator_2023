@@ -33,12 +33,12 @@ body {
 .display {
   background-color: #879ac7; /* Sets the background color */
   width: 100%; /* Takes up the full width of its container */
-  padding: 30px; /* Adds padding */
+  padding: 25px; /* Adds padding */
   margin-bottom: 10px; /* Adds margin to the bottom */
   border-radius: 5px; /* Rounds the corners */
   text-align: right; /* Aligns text to the right */
   color: whitesmoke; /* Sets the text color */
-  font-size: 30px; /* Adjusts the font size */
+  font-size: 25px; /* Adjusts the font size */
   font-weight: 500; /* Sets the font weight */
 }
 
