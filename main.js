@@ -73,7 +73,7 @@ function performCalculation(firstNumber, mathOperation, secondNumber) {
 			rawResult = parseFloat(firstNumber) / parseFloat(secondNumber);
 			break;
 		default:
-			return "Invalid operation";  // Error message for any other unexpected operation
+			return "0";  // Error message for any other unexpected operation
 	}
 
 	// Check if the result is a float and round only if it is
